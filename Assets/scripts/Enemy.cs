@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
         Debug.Log("Enemy Hit " + whatDidIHit.gameObject.name);
         if (whatDidIHit.tag == "Player")
         {
-            whatDidIHit.GetComponent<PlayerContoller>().LoseALife();
+            whatDidIHit.GetComponent<PlayerController>().LoseALife();
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
