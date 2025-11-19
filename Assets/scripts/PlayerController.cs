@@ -1,6 +1,7 @@
+using UnityEditor.Build.Content;
 using UnityEngine;
 
-public class PlayerContoller : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public int lives;
     private float playerSpeed;

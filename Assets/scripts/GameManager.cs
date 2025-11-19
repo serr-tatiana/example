@@ -3,7 +3,7 @@ using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 using TMPro;
 
-public class TotsGameManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public GameObject enemyOnePrefab;
     public GameObject cloudPrefab;
